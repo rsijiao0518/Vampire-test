@@ -1,0 +1,10 @@
+language: cpp
+
+sudo: false
+
+compiler:
+  - clang
+  - gcc
+
+
+script: ./autogen.sh && ./configure && make
